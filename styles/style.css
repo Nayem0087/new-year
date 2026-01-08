@@ -167,13 +167,80 @@ header {
     
 }
 
-
-
-
-    /* width: 71%;
-    max-width: 1140px;
-    margin: 0px auto;
+#footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-   */
+    max-width: 1600px;
+    min-height: 577px;
+    background: black;
+    color: white;
+    
+}
+
+#footer nav {
+    margin: 142px 331px 117px 230px;
+    max-width: 485px;
+    min-height: 317px;
+    
+}
+
+#footer nav h2 {
+    font-size: 45px;
+    font: bold;
+    margin-bottom: 16px;
+}
+
+#footer nav p {
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+/* #footer .social-icon {
+    margin-top: 32px;
+    gap: 16px; 
+}
+
+#footer .social-icons img{
+    margin-right: 20px;
+} */
+
+#footer div {
+    margin-top: 142px;
+    margin-right: 230px;
+    margin-bottom: 230px;
+    max-width: 325;
+    min-height: 204px;
+}
+
+#footer div h4 {
+    font-size: 25px;
+    font: bold;
+    margin-bottom: 31px;
+}
+
+#footer div input {
+    min-width: 525px;
+    min-height: 64px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: black;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+input,
+button{
+    display: block;
+}
+
+button{
+    min-width: 170px;
+    min-height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    font: bold;
+}
+
+
+  
